@@ -1,0 +1,49 @@
+/* font-family: 'Marck Script', cursive; */
+/* font-family: 'Shrikhand', cursive; */
+
+/* Light Variations:
+
+#222547
+#353B60
+#4D547B
+#6F769A
+#9CA4BF
+
+
+Darker Variations:
+
+#0B0C1F  Body
+#070814
+#04040A
+#020207
+#000000 */
+
+/* Light Variations:
+
+#4136AD Shadows
+#544CD2
+#6A62EC
+#8B8AE6
+#B3B3F0
+Darker Variations:
+
+#271E73 Body 
+#1B1666
+#100D59
+#08074C
+#00003F */
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  
+} 
+
+
+body{
+  background-color: #0B0C1F;
+  color: #fff;
+}
