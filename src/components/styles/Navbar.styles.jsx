@@ -81,9 +81,9 @@ export const NavIcons = styled.div`
 `
 
 export const MobileNav = styled.div`
-    padding: 10px;
+    padding: 10px 10px 100px 10px;
     position: fixed;
-    height: 400px;
+    height: 100vh;
     width: 50vw;
     display: flex;
     flex-direction: column;
@@ -92,9 +92,6 @@ export const MobileNav = styled.div`
     background-color: ${({ theme }) => theme.lightTheme.text_dark};
     top: 0;
     right: ${({ toggle }) => toggle ? '0' : '-100%'};
-    margin: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px 2px ${({ theme }) => theme.darkTheme.text_light};
     transition: right 450ms ease-out;
 ` 
 
